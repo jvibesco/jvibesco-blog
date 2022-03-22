@@ -1,0 +1,55 @@
+.btn-4:hover {
+    box-shadow: 10px 10px 0px #ff96ad;
+    top: -5px;
+    left: -5px;
+}
+
+.btn-7:hover {
+    background:#ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 20px #ff96ad;
+}
+
+.btn-5:hover {
+    box-shadow: 10px 10px 0px #0d0908;
+    top: -5px;
+    left: -5px;
+}
+
+.btn-6:hover {
+    box-shadow: 3px 3px 0px rgb(121, 119, 119);
+    top: -2px;
+    left: -2px;
+}
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+  }
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.cover-container {
+  max-width: 42em;
+}
